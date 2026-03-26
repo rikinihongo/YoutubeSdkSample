@@ -55,6 +55,7 @@ class YouTubeFragment : Fragment() {
         initializeYouTubePlayer()
         observeViewModel()
 
+        // test
         binding.btnLoad.setOnClickListener {
             viewModel.loadVideo("bFzM6XQn-zQ")
         }
